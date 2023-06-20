@@ -1,5 +1,6 @@
 import React from 'react'
 import Navigation from '../Layouts/Navigation'
+import Footer from '../Layouts/Footer'
 
 function Category() {
   return (
@@ -8,6 +9,7 @@ function Category() {
         <div>
             <h1>INI Category</h1>
         </div>
+        <Footer />
     </React.Fragment>
   )
 }

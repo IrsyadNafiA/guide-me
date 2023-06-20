@@ -1,5 +1,6 @@
 import React from 'react'
 import Navigation from '../Layouts/Navigation'
+import Footer from '../Layouts/Footer'
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
         <div>
             <h1>INI HOME</h1>
         </div>
+        <Footer />
     </React.Fragment>
   )
 }
