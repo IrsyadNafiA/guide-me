@@ -1,11 +1,14 @@
 import React from "react";
 import Navigation from "./Navigation";
+import { Outlet } from "react-router-dom";
+import Footer from "./Footer";
 
-const MainLayouts = ({children}) => {
+const MainLayouts = () => {
     return(
         <React.Fragment>
             <Navigation />
-            {children}
+            <Outlet />
+            <Footer />
         </React.Fragment>
     )
 }

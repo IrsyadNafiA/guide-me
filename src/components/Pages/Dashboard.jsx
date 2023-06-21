@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import Background from '../../assets/background.png'
 import Maps from '../../assets/maps.png'
 import { HiArrowSmRight } from "react-icons/hi";
