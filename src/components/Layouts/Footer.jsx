@@ -6,7 +6,7 @@ import SocialIcon from "../Utilities/socialIcon";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1b1b1b] text-white text-center h-fit flex flex-col gap-4 lg:flex-row justify-between items-center px-10 py-8 fixed w-full bottom-0">
+    <footer className="bg-[#1b1b1b] text-white text-center h-fit flex flex-col gap-4 lg:flex-row justify-between items-center px-10 py-8 relative w-full bottom-0 mt-10">
       <div>
         <h1 className="text-3xl font-black">Guide Me</h1>
       </div>

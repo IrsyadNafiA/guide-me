@@ -6,6 +6,7 @@ import Category from './components/Pages/Category'
 import About from './components/Pages/About'
 import Contact from './components/Pages/Contact'
 import MainLayouts from './components/Layouts/MainLayouts'
+import Place from './components/Pages/Place'
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/place",
+        element: <Place />,
       },
     ],
   },
